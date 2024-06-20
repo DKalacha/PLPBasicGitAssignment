@@ -1,0 +1,13 @@
+STEPS:
+- After creating a repo in github, add a readme.md file into the repo.
+- This is the readme file in which I am typing these steps.
+- Open git bash
+- Change directory to the disk drive you wish to use using the command 'cd d:/' #(In this case d: represents my d drive and the foward slash represents the path.
+- Create a directory using the 'mkdir' command i.e. 'mkdir PLPBasicGitAssignment'
+- Change directory to the folder you just created i.e 'cd PLPBasicGitAssignment/'
+- Initialize the repo with a .git using the command 'git init'
+- Go back to github and copy the repository url
+- Go back to git bash and link the local directory to the remote github repository i.e. 'git remote add origin <(repo url)>'
+- Navigate to the local folder and create a file titled "hello.txt" and add a simple text message 'Hello, Git!'
+- Go back to git bash and add then commit the changes using the command 'git add hello.txt' then 'git commit -m "Add hello.txt with a greeting"
+- Push the changes to the github repository using the command 'git push <(repo url)>'
